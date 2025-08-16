@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="128" viewBox="0 0 512 128" role="img" aria-labelledby="title desc">
+  <title id="title">Invoice Meta</title>
+  <desc id="desc">Logo for Invoice Meta with IM monogram and wordmark</desc>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <style>
+      .word { font: 700 40px Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill: #111827; }
+      .sub  { font: 500 14px Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; fill: #6b7280; }
+    </style>
+  </defs>
+
+  <!-- Monogram -->
+  <g transform="translate(12,12)">
+    <rect x="0" y="0" width="104" height="104" rx="24" fill="url(#g)"/>
+    <g fill="#ffffff">
+      <rect x="22" y="30" width="12" height="48" rx="6"/>
+      <rect x="44" y="30" width="12" height="48" rx="6"/>
+      <path d="M76 30a6 6 0 0 1 6 6v36a6 6 0 0 1-12 0V54l-8 10a6 6 0 0 1-9-8l13-16a6 6 0 0 1 4-2h6z"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(140,54)">
+    <text class="word">Invoice Meta</text>
+    <text class="sub" dy="28">Professional Invoice Generator</text>
+  </g>
+</svg>
+
+
+
